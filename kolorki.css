@@ -1,0 +1,49 @@
+body
+{
+    margin:auto;
+    padding: 0;
+}
+div.razem
+{
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: auto
+}
+input[type="button"]
+{
+    width: 25%;
+    font-size: 75%;
+}
+.tytul
+{
+    font-size: 2em;
+    width: 50%;
+    height: 100%;
+}
+.ustawienia
+{
+    display: flex;
+    flex-direction: column ;
+}
+.pole
+{
+    width: 75%;
+    height: 75%;
+    border: black solid 1px;
+    margin: 0;
+    padding: 0;
+}
+.gra
+{
+    width: 80vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(10,0.1fr);
+    grid-template-rows: repeat(10,0fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
